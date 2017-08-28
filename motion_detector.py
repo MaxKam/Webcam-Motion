@@ -33,10 +33,9 @@ while True:
 
 
 
-
-    cv2.imshow("Gray Frame", frame)
-    cv2.imshow("Capturing", delta_frame)
-    cv2.imshow("Threshold Frame", thresh_frame)
+    # Show the video on the screen
+    cv2.imshow("Video", frame)
+    
     
 
     key = cv2.waitKey(1)
